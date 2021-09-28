@@ -1,6 +1,18 @@
 let name = prompt("what is your name")
-let age = prompt("What is your age")
-if (!(age>=18 && age<=100)) {
-    alert(`Hi ${name}, no you cant try this game`)
-    } else {alert("You are Welcome")}
+let userID = prompt("what is user ID")
+if (userID =="Admin") {
+    inputPassword = prompt("Enter Password");
+}
+    else if (userID == "") {
+    alert("Canceled");
+}   else {alert ('unknown user');
+    }
+if (inputPassword=="TheMaster")
+    {
+        alert("welcome!")
+    }
+    else if (inputPassword =="") {
+        alert("Canceled");
+    }   else {alert ('wrong password');
+        }
    
